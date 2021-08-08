@@ -1,50 +1,44 @@
-.uber {
-  width: 1922px;
-  height: 5255px;
+.container {
+  width: 100%;
+}
 
-  .screen-one {
-    width: 1922px;
-    height: 851px;
-    display: flex;
+.header {
+  width: 100%;
+  display: flex;
+}
 
-    .navbar {
+.hat {
+  width: 100%;
 
-      .top-navbar {
-        width: 1922px;
-        height: 53px;
+  &__top {
+    width: 100%;
 
-        background: #212121;
+    background: #212121;
 
-        .top-navbar-content {
-          width: 1029px;
-          height: 31px;
+    &__content {
+      width: 100%;
 
-          font-family: Roboto;
-          font-style: normal;
-          font-weight: 300;
-          font-size: 15px;
-          line-height: 15px;
-          /* or 100% */
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 15px;
+      /* or 100% */
 
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      color: #FFFFFF;
 
 
-        }
-      }
-
-      .bottom-navbar {
-        width: 1922px;
-        height: 87px;
-
-        background: #000000;
-        mix-blend-mode: normal;
-        opacity: 0.6;
-      }
     }
-
   }
 
+  &__bottom {
+    width: 100%;
+
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
 }

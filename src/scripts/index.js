@@ -1,3 +1,4 @@
+import '../styles/reset.css';
 import '../styles/index.scss';
 
 if (process.env.NODE_ENV === 'development') {
