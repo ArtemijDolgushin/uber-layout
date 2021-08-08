@@ -12,32 +12,25 @@
 
   &__top {
     width: 100%;
-
     background: #212121;
 
     &__content {
       width: 100%;
-
-      font-family: Roboto;
+      font-family: Roboto, monospace;
       font-style: normal;
       font-weight: 300;
       font-size: 15px;
       line-height: 15px;
-      /* or 100% */
-
       display: flex;
       align-items: center;
       justify-content: space-around;
-      color: #FFFFFF;
-
-
+      color: #fff;
     }
   }
 
   &__bottom {
     width: 100%;
-
-    background: #000000;
+    background: #000;
     mix-blend-mode: normal;
     opacity: 0.6;
   }
