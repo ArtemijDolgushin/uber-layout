@@ -1,12 +1,10 @@
-import '../styles/reset.css';
 import '../styles/index.scss';
-import content__contacts__image__source from '../img/uber_mail.png';
+import promo__contacts__content__image__source from '../img/uber_url.png';
+
 if (process.env.NODE_ENV === 'development') {
-  require('../index.html');
+    require('../index.html');
 }
 
-const content__contacts__image= document.querySelector('.content__contacts__image-mail');
-const image = new Image(285,32);
-image.src = content__contacts__image__source;
-content__contacts__image.appendChild(image);
-//content__contacts__image.src = content__contacts__image__source;
+const promo__contacts__content__image = document.querySelector('.promo__contacts__content__image');
+promo__contacts__content__image.src = promo__contacts__content__image__source;
+promo__contacts__content__image.alt = 'Uber site url';

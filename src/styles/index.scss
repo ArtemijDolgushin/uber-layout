@@ -1,55 +1,10 @@
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "header";
+
 .container {
-  width: 1000px;
+  width: 1140px;
   margin: 0 auto;
-}
-
-.header {
-  width: 100%;
-
-  .hat {
-    background: #212121;
-
-    &__content {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 52px;
-
-      li {
-        border-right-width: 3px;
-        border-right-color: #000;
-        border-right-style: dotted;
-        padding-right: 20px;
-        padding-left: 20px;
-      }
-
-      a {
-        text-decoration: none;
-        font-family: Roboto, monospace;
-        font-size: 15px;
-        color: #fff;
-      }
-    }
-  }
-
-  .content {
-    height: 800px;
-    background-image: url(../img/uber_bg.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    &__contacts {
-      height: 87px;
-      background: rgba(0, 0, 0, 0.6);
-      mix-blend-mode: normal;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-
-      &__text {
-        font-family: Roboto, monospace;
-        color: #fff;
-      }
-    }
-  }
 }
