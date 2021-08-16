@@ -39,6 +39,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding-bottom: 186px;
 
     &__contacts {
       background: rgba($black, 0.6);
@@ -121,12 +122,11 @@
 
       &__button {
         @include header-button;
-        @include roboto-text(normal, 18px, #fff);
+        @include roboto-text(normal, 18px, $white);
 
         width: 259px;
         height: 63px;
         margin-top: 110px;
-        margin-bottom: 186px;
       }
     }
   }
