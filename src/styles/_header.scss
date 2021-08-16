@@ -1,0 +1,133 @@
+.header {
+  width: 100%;
+
+  .navbar {
+    background: $navbar-background;
+
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 52px;
+
+      li {
+        border-right-width: 3px;
+        border-right-color: $black;
+        border-right-style: dotted;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+
+      li:last-child {
+        border-right-width: 0;
+      }
+
+      a {
+        @include roboto-text(300, 15px, $white);
+
+        text-decoration: none;
+      }
+    }
+  }
+
+  .promo {
+    //background-image: url(../img/uber_bg.png);
+    //background-size: contain;
+    // background-repeat: no-repeat;
+    background: url(../img/uber_bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 186px;
+
+    &__contacts {
+      background: rgba($black, 0.6);
+      mix-blend-mode: normal;
+
+      &__content {
+        height: 87px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &__image {
+          width: 285px;
+          height: 32px;
+        }
+
+        &__text {
+          @include roboto-text(200, 13px, $white);
+
+          margin-top: 7px;
+        }
+
+        &__order-call {
+          display: flex;
+
+          ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+          }
+
+          &__text {
+            @include roboto-text(300, 12px, $white);
+          }
+
+          &__number {
+            @include roboto-text(normal, 22px, $white);
+
+            margin-top: 12px;
+          }
+
+          &__button {
+            @include header-button;
+            @include roboto-text(normal, 14px, $white);
+
+            width: 172px;
+            height: 46px;
+            margin-left: 32px;
+          }
+        }
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+
+      &__text {
+        text-align: center;
+
+        &__headline {
+          @include roboto-text(900, 60px, $white);
+        }
+
+        &__caption {
+          @include roboto-text(700, 36px, $white);
+
+          margin-top: 5px;
+        }
+
+        &__paragraph {
+          @include roboto-text(normal, 18px, $white);
+
+          margin-top: 16px;
+          line-height: 24px;
+        }
+      }
+
+      &__button {
+        @include header-button;
+        @include roboto-text(normal, 18px, $white);
+
+        width: 259px;
+        height: 63px;
+        margin-top: 110px;
+      }
+    }
+  }
+}
