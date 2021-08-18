@@ -1,3 +1,4 @@
+@import "../_variables";
 .header {
   width: 100%;
 
@@ -34,7 +35,7 @@
     //background-image: url(../img/uber_bg.png);
     //background-size: contain;
     // background-repeat: no-repeat;
-    background: url(../img/uber_bg.png) no-repeat center center fixed;
+    background: url(/src/assets/images/uber_bg.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
