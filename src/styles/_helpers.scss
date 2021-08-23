@@ -1,0 +1,15 @@
+.banner {
+  @include roboto-text(normal, 11px, $white);
+
+  background: $black;
+  padding: 8px 13px 8px 13px;
+  margin-top: 18px;
+}
+
+.banner-white {
+  @include roboto-text(normal, 11px, $black);
+
+  background: $white;
+  padding: 8px 13px 8px 13px;
+  margin-top: 18px;
+}
