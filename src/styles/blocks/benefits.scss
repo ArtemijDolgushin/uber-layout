@@ -40,11 +40,11 @@
           margin-left: 25px;
 
           &__headline {
-            @include roboto-text(normal, 17, $blue);
+            @include roboto-text(normal, 17px, $blue);
           }
 
           &__main {
-            @include roboto-text(300, 15, $black);
+            @include roboto-text(300, 15px, $black);
           }
         }
       }
