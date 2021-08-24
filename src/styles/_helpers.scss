@@ -13,3 +13,28 @@
   padding: 8px 13px 8px 13px;
   margin-top: 18px;
 }
+
+.heading {
+  @include roboto-text(bold, 38px, $title-text);
+
+  margin-top: 32px;
+}
+
+.heading-white {
+  @include roboto-text(bold, 38px, $white);
+
+  margin-top: 32px;
+}
+
+.caption{
+  @include roboto-text(normal, 17px, $title-text);
+
+  margin-top: 16px;
+}
+
+.caption-white{
+  @include roboto-text(normal, 17px, $white);
+
+  margin-top: 16px;
+}
+
