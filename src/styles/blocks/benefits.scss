@@ -6,12 +6,6 @@
     flex-direction: column;
     align-items: center;
 
-    &__heading {
-      @include roboto-text(bold, 38px, $benefits-heading);
-
-      margin-top: 32px;
-    }
-
     &__list {
       display: flex;
 
